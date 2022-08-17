@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+
 import './App.css';
+import LeagueApi from './components/api/LeagueApi';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <h1 className='font-bold mx-auto flex justify-center items-center'>Football League Matches Videos</h1>
+     <LeagueApi/>
+
+     {/* <div className=" flex flex-wrap w-full h-full items-center justify-center bg-orange-400 ">
+      <div className="div1 h-80 w-80 bg-blue-700"></div>
+      <div className="div2 h-80 w-80 bg-red-700"></div>
+      <div className="div3 h-80 w-80 bg-slate-700"></div>
+      <div className="div4 h-80 w-80 bg-green-700"></div>
+      <div className="div1 h-80 w-80 bg-blue-700"></div>
+      <div className="div2 h-80 w-80 bg-red-700"></div>
+      <div className="div3 h-80 w-80 bg-slate-700"></div>
+      <div className="div4 h-80 w-80 bg-green-700"></div>
+      <div className="div1 h-80 w-80 bg-blue-700"></div>
+      <div className="div2 h-80 w-80 bg-red-700"></div>
+      <div className="div3 h-80 w-80 bg-slate-700"></div>
+      <div className="div4 h-80 w-80 bg-green-700"></div>
+
+     </div> */}
     </div>
   );
 }
