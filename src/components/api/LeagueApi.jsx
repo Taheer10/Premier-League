@@ -3,6 +3,7 @@ import axios from "axios"
 import {BsSearch} from 'react-icons/bs'
 import '../../../src/App.css'
 import CardContainer from './CardContainer'
+import ButtonSearch from '../hooks/ButtonSearch'
 
 
 const LeagueApi = () => {
@@ -56,15 +57,17 @@ const LeagueApi = () => {
     <div>
 
        <div className="formdiv">
-       <form  className='mb-2 flex justify-center items-center'>
-            <input type="text" value={inputvalue} onChange={inputHandler} placeholder='Enter the match' className='inputvalue w-4/6 rounded-sm'/>
-            <BsSearch/>
+       <form  className='mb-2 flex justify-center items-center flex-col'>
+            <input type="text" value={inputvalue} onChange={inputHandler} placeholder='Enter the match' className='inputvalue w-4/6 rounded-sm h-10'/>
+            
+            <ButtonSearch/>
+
             {/* <button onClick={SearchData} className='buttonsearch'><BsSearch/></button> */}
             <hr />
         </form>
        </div>
 
-       <div className="flex flex-wrap w-full h-full  bg-gray-900 ">
+       <div className="flex flex-wrap w-full h-full  bg-gray-900 items-center justify-center">
        {
              datavalue.filter((val)=> {
               if(inputvalue == ""){

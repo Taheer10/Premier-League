@@ -4,8 +4,8 @@ import LeagueApi from './components/api/LeagueApi';
 
 function App() {
   return (
-    <div className="app">
-      <h1 className='font-bold mx-auto flex justify-center items-center'>Football League Matches Videos</h1>
+    <div className="app bg-gray-900">
+      <h1 className='font-bold mx-auto flex justify-center items-center text-white lg:text-3xl'>Football League Matches Videos</h1>
      <LeagueApi/>
 
      {/* <div className=" flex flex-wrap w-full h-full items-center justify-center bg-orange-400 ">
