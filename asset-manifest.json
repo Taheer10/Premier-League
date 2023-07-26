@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Taheer10/Premier-League/static/css/main.27765dd2.css",
+    "main.js": "/Taheer10/Premier-League/static/js/main.85d264f3.js",
+    "index.html": "/Taheer10/Premier-League/index.html",
+    "main.27765dd2.css.map": "/Taheer10/Premier-League/static/css/main.27765dd2.css.map",
+    "main.85d264f3.js.map": "/Taheer10/Premier-League/static/js/main.85d264f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27765dd2.css",
+    "static/js/main.85d264f3.js"
+  ]
+}
